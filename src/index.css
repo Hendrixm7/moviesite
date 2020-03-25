@@ -2,11 +2,71 @@
   font: 16px / 1 sans-serif;
 }
 
+@font-face {
+  font-family: 'BodaciousDemibold';
+  src: local('BodaciousDemibold'), url('/fonts/BodaciousDemibold.ttf') format('ttf');
+}
+
 html {
   height: 100%;
 }
 
 body {
   margin: 0;
-  min-height: 100%;
+  padding: 0;
+  font-family: sans-serif;
+  background-color: #f9f9f9;
 }
+
+ul, p {
+  margin: 0;
+  padding: 0;
+}
+
+li {
+  list-style: none;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+a {
+  text-decoration: none;
+  cursor: default;
+  color: inherit;
+}
+
+img {
+  max-width: 100%;
+  height: auto;
+}
+
+.s-alert-wrapper div {
+  border-radius: 3px;
+}
+
+.Card {
+  padding: 0 !important;
+}
+
+.movie-card {
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: flex-start;
+  width: 259px;
+  position: relative;
+  padding: 0 8px;
+  margin-bottom: 40px;
+  margin-left: 36px;
+  display: inline;
+}
+
+h1 {
+  font-family: 'BodaciousDemibold';
+}
+
+/* @font-face h1 {
+  font-family: myFirstFont;
+  src: url("https://www.fontspace.com/bodacious-font-f29567");
+} */
